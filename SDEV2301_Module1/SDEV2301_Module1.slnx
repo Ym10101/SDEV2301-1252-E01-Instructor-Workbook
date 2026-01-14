@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="L01_HelloWorldWithoutTopLevelStatements/L01_HelloWorldWithoutTopLevelStatements.csproj" />
+  <Project Path="L01_HelloWorldWithTopLevelStatement/L01_HelloWorldWithTopLevelStatement.csproj" />
+</Solution>
