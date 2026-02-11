@@ -5,7 +5,7 @@ namespace Module02.Lesson16.EfCoreIntro
     public class AppDbContext : DbContext // DbSession
     {
         public DbSet<Product> Products => Set<Product>(); // table abstraction
-
+        public DbSet<Customer> Customers => Set<Customer>();
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             // Force SQLite to use a single database file in the project root.
